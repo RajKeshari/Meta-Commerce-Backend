@@ -39,6 +39,7 @@ app.use(
       "http://127.0.0.1:5500/index%20(1).html",
       "http://127.0.0.1:5500",
       "https://stellar-donut-7119ad.netlify.app/",
+      "https://64dfaf073dd4c2053a2c473c--velvety-croissant-4dd6f9.netlify.app/",
     ],
     credentials: true,
   })
