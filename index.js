@@ -29,7 +29,7 @@ app.listen(PORT, () => console.log(`Server started on port: ${PORT}`));
 
 app.use(function(req, res, next) {
   // res.header("Access-Control-Allow-Origin", "*");
-  const allowedOrigins = ['http://localhost:3000', 'https://64dfaf073dd4c2053a2c473c--velvety-croissant-4dd6f9.netlify.app'];
+  const allowedOrigins = ['http://localhost:3000', 'https://velvety-croissant-4dd6f9.netlify.app/',];
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
        res.setHeader('Access-Control-Allow-Origin', origin);
